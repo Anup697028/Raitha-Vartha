@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ರೈತ-ವಾರ್ತೆ</string>
+    <string name="temp_celsius">%1$d°C</string>
+    <string name="humidity_label">ಆರ್ದ್ರತೆ: %1$d%%</string>
+    <string name="settings">ಸೆಟ್ಟಿಂಗ್‌ಗಳು</string>
+    <string name="language">ಭಾಷೆ</string>
+    <string name="theme">ಥೀಮ್</string>
+    <string name="district_label">ಜಿಲ್ಲೆ: %1$s</string>
+    <string name="not_set">ಹೊಂದಿಸಿಲ್ಲ</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="english">English</string>
+    <string name="light_mode">ಲೈಟ್ ಮೋಡ್</string>
+    <string name="dark_mode">ಡಾರ್ಕ್ ಮೋಡ್</string>
+    <string name="system_default">ಸಿಸ್ಟಮ್ ಡಿಫಾಲ್ಟ್</string>
+    <string name="notifications">ಸೂಚನೆಗಳು</string>
+    <string name="stable_conditions">ಇಂದು ಹವಾಮಾನ ಸ್ಥಿರವಾಗಿದೆ.</string>
+    <string name="listen">ಆಲಿಸಿ</string>
+    <string name="analyze_image">ಚಿತ್ರವನ್ನು ವಿಶ್ಲೇಷಿಸಿ</string>
+    <string name="select_crop">ನಿಮ್ಮ ಬೆಳೆಗಳನ್ನು ಆರಿಸಿ</string>
+    <string name="finish">ಮುಗಿಸಿ</string>
+    <string name="select_district">ನಿಮ್ಮ ಜಿಲ್ಲೆಯನ್ನು ಆರಿಸಿ</string>
+    <string name="ai_expert">AI ತಜ್ಞ</string>
+    <string name="loading">ಲೋಡ್ ಆಗುತ್ತಿದೆ…</string>
+    <string name="error_loading">ಡೇಟಾವನ್ನು ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷವಿದೆ. ಮರುಪ್ರಯತ್ನಿಸಲು ಟ್ಯಾಪ್ ಮಾಡಿ.</string>
+    <string name="location_format">%1$s, ಕರ್ನಾಟಕ</string>
+    <string name="share_story_format">%1$s ಅವರ ಸ್ಪೂರ್ತಿದಾಯಕ ಕಥೆ, %2$s ಜಿಲ್ಲೆಯಿಂದ!\n\nಸಮಸ್ಯೆ: %3$s\n\nಯಶಸ್ಸು: %4$s\n\nರೈತ-ವಾರ್ತೆ ಆಪ್‌ನಲ್ಲಿ ಇನ್ನಷ್ಟು ಓದಿ.</string>
+    <string name="share_story_chooser">ಯಶಸ್ಸಿನ ಕಥೆಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
+    <string name="challenge_label">ಸವಾಲು</string>
+    <string name="solution_label">ಪರಿಹಾರ</string>
+    <string name="full_story_label">ಸಂಪೂರ್ಣ ಕಥೆ</string>
+    <string name="ai_advantage_label">✨ ರೈತ-ವಾರ್ತೆ ಪ್ರಯೋಜನ</string>
+    <string name="share_button">ಯಶಸ್ಸಿನ ಕಥೆಯನ್ನು ಹಂಚಿಕೊಳ್ಳಿ</string>
+</resources>

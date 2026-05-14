@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Raitha-Varta</string>
+    <string name="temp_celsius">%1$d°C</string>
+    <string name="humidity_label">Humidity: %1$d%%</string>
+    <string name="settings">Settings</string>
+    <string name="language">Language</string>
+    <string name="theme">Theme</string>
+    <string name="district_label">District: %1$s</string>
+    <string name="not_set">Not set</string>
+    <string name="kannada">ಕನ್ನಡ</string>
+    <string name="english">English</string>
+    <string name="light_mode">Light Mode</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="system_default">System Default</string>
+    <string name="notifications">Notifications</string>
+    <string name="stable_conditions">Conditions are stable today.</string>
+    <string name="listen">Listen</string>
+    <string name="analyze_image">Analyze Image</string>
+    <string name="select_crop">Select Your Crops</string>
+    <string name="finish">Finish</string>
+    <string name="select_district">Select Your District</string>
+    <string name="ai_expert">AI Expert</string>
+    <string name="loading">Loading...</string>
+    <string name="error_loading">Error loading data. Tap to retry.</string>
+    <string name="location_format">%1$s, Karnataka</string>
+    <string name="share_story_format">Inspirational Story of %1$s from %2$s!\n\nIssue: %3$s\n\nSuccess: %4$s\n\nRead more on Raitha-Varta App.</string>
+    <string name="share_story_chooser">Share Success Story</string>
+    <string name="challenge_label">The Challenge</string>
+    <string name="solution_label">The Solution</string>
+    <string name="full_story_label">The Full Story</string>
+    <string name="ai_advantage_label">✨ Raitha-Varta Advantage</string>
+    <string name="share_button">Share Success Story</string>
+</resources>

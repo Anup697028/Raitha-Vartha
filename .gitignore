@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+.kotlin/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.shelf/
+.navigation/
+
+# Built objects
+bin/
+gen/
+out/
+
+# Log files
+*.log
+
+# Local configuration files
+local.properties
+
+# Secrets
+google-services.json
+*.jks
+*.keystore
+
+# Captured heap dumps
+*.hprof
+java_pid*.hprof
+
+# macOS
+.DS_Store

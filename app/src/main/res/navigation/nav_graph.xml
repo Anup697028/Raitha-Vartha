@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.raitha.vartha.ui.splash.SplashFragment"
+        android:label="Splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_splashFragment_to_languageFragment"
+            app:destination="@id/languageFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+        <action
+            android:id="@+id/action_splashFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/splashFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.raitha.vartha.ui.setup.LanguageFragment"
+        android:label="Select Language">
+        <action
+            android:id="@+id/action_languageFragment_to_districtFragment"
+            app:destination="@id/districtFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/districtFragment"
+        android:name="com.raitha.vartha.ui.setup.DistrictFragment"
+        android:label="Select District">
+        <action
+            android:id="@+id/action_districtFragment_to_cropSelectionFragment"
+            app:destination="@id/cropSelectionFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cropSelectionFragment"
+        android:name="com.raitha.vartha.ui.setup.CropSelectionFragment"
+        android:label="Select Crops">
+        <action
+            android:id="@+id/action_cropSelectionFragment_to_homeFragment"
+            app:destination="@id/homeFragment"
+            app:popUpTo="@id/languageFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.raitha.vartha.ui.home.HomeFragment"
+        android:label="Home" />
+
+    <fragment
+        android:id="@+id/cropsFragment"
+        android:name="com.raitha.vartha.ui.crops.CropsFragment"
+        android:label="Crops">
+        <action
+            android:id="@+id/action_cropsFragment_to_cropDetailFragment"
+            app:destination="@id/cropDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/cropDetailFragment"
+        android:name="com.raitha.vartha.ui.crops.CropDetailFragment"
+        android:label="Crop Detail">
+        <argument
+            android:name="crop"
+            app:argType="com.raitha.vartha.models.Crop" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/expertFragment"
+        android:name="com.raitha.vartha.ui.expert.ExpertFragment"
+        android:label="Ask Expert" />
+
+    <fragment
+        android:id="@+id/savedFragment"
+        android:name="com.raitha.vartha.ui.saved.SavedFragment"
+        android:label="Saved">
+        <action
+            android:id="@+id/action_savedFragment_to_storyDetailFragment"
+            app:destination="@id/storyDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/storyDetailFragment"
+        android:name="com.raitha.vartha.ui.saved.StoryDetailFragment"
+        android:label="Story Detail">
+        <argument
+            android:name="story"
+            app:argType="com.raitha.vartha.models.SuccessStory" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.raitha.vartha.ui.settings.SettingsFragment"
+        android:label="Settings" />
+
+</navigation>
